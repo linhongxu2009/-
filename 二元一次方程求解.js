@@ -31,6 +31,7 @@ function dairyfa() {
 		y = 0;
 	} else {
 		y = yf / ys;
+		var yyanzheng=y;
 		y = y.toFixed(2);
 	}
 	var xf = k - l;
@@ -40,13 +41,14 @@ function dairyfa() {
 		x = 0;
 	} else {
 		x = xf / xs;
+		var xyanzheng=x;
 		x = x.toFixed(2);
 	}
 		// 判断是否无解
-	var yanzhengf=b*y;
-	var yanzhengs=a*x;
-	var yanzhengxf=y*e;
-	var yanzhengxs=x*d;
+	var yanzhengf=b*yyanzheng;
+	var yanzhengs=a*xyanzheng;
+	var yanzhengxf=yyanzheng*e;
+	var yanzhengxs=xyanzheng*d;
 	if(yanzhengf+yanzhengs!=c){
 		document.getElementById("divonunder").innerHTML = "";
 		var shuchu = document.getElementById("divonunder").innerHTML;
@@ -146,6 +148,7 @@ function jiajiangfa() {
 		y = 0;
 	} else {
 		y = yf / ys;
+		var yyanzheng=y;
 		y = y.toFixed(2);
 	}
 	var xf = k - l;
@@ -156,13 +159,14 @@ function jiajiangfa() {
 	} 
 	else {
 		x = xf / xs;
+		var xyanzheng=x;
 		x = x.toFixed(2);
 	}
 	// 判断是否无解
-	var yanzhengf=b*y;
-	var yanzhengs=a*x;
-	var yanzhengxf=y*e;
-	var yanzhengxs=x*d;
+	var yanzhengf=b*yyanzheng;
+	var yanzhengs=a*xyanzheng;
+	var yanzhengxf=yyanzheng*e;
+	var yanzhengxs=xyanzheng*d;
 	if(yanzhengf+yanzhengs!=c){
 		document.getElementById("divonunder").innerHTML = "";
 		var shuchu = document.getElementById("divonunder").innerHTML;
