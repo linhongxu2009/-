@@ -1,0 +1,75 @@
+		.bc{
+			background-color: #EEEEEE;
+			width: 100vw;
+			height: 100vh;
+			position: fixed;
+			left: 0;
+			top: 0;
+			z-index: -1;
+		}
+		.shuchuqh{
+			margin-top: -10px;
+			margin-left: 10px;
+		}
+		.shuchuqhtop{
+			margin-left: 10px;
+			margin-top: 3px;
+		}
+		#a, #b,#c,#d,#e,#f{
+			box-shadow: 1px 1px 1px #555555;
+			border: none;
+			background-color: rgba(0,0,0,.2);
+			width: 60px;
+			padding: 2px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-left: 3px;
+			margin-right: 3px;
+			text-shadow: 1px 1px 1px #afafaf;
+		}
+		#button45,#button54{
+			background: none;
+			position: relative;
+			left: 13px;
+			color: #000000;
+			border: none;
+			background-color: #888888;
+			outline: none;
+			clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
+		}
+		#divonunder{
+			width: 100vw;
+			position: relative;
+			left: -37px;
+			top: -3px;
+			color: #646464;
+			margin: 0;
+			padding: 0;
+			box-shadow: 0px -1px 1px #C0C0C0;
+			background-color: #EEEEEE;
+		}
+		#divouteve{
+			position: relative;
+			left: 5%;
+			top: 20px;
+			width: 90%;
+			height: 50vh;
+		}
+		#github{
+			position: fixed;
+			right: 2px;
+			top: 2px;
+			z-index: 1;
+		}
+		#topred{
+			position: relative;
+			left: 1px;
+			top: 3px;
+			font-weight: 900;
+			font-size: 15px;
+		}
+		.spanforxy{
+			text-shadow: 1px 1px 1px #afafaf;
+			font-weight: 900;
+			font-size: 15px;
+		}
